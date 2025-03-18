@@ -103,7 +103,7 @@ services:
       - app_network
 
   portal:
-    image: bluesquanium/shs-web:latest
+    image: iuscaler/shs-web:new
     pull_policy: always
     restart: always
     depends_on:
